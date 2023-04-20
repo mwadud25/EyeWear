@@ -1,0 +1,138 @@
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', monospace;
+}
+.featured{
+    text-align: center;
+    background-color: #eee;
+}
+.featured h5{
+    font-size: large
+}
+.carousel{
+    box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
+}
+.carousel-caption{
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar ul li{
+    padding: 0px 10px;
+}
+#header{
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+#header .fixed-top{
+    box-shadow: 0px 25px 20px -20px rgba(0,0,0,1);
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link:active{
+    color:white;
+}
+#header .navbar-toggler-icon{
+    width:unset;
+    height:unset;
+}
+#header .navbar-toggle-icon:focus{
+    box-shadow:none;
+}
+.featured .card{
+    box-shadow: 0px 25px 20px -20px rgba(0,0,0,1);
+}
+
+
+/* News Letter */
+.modal-newsletter {
+    color: #999;
+    width: 625px;
+    max-width: 625px;
+    font-size: 15px;
+}
+.modal-newsletter .modal-content {
+    padding: 30px;
+    border-radius: 0;
+    border: none;
+}
+.modal-newsletter .modal-header {
+    border-bottom: none;
+    position: relative;
+    border-radius: 0;
+}
+.modal-newsletter h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+.modal-newsletter .close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    text-shadow: none;
+    opacity: 0.3;
+    font-size: 24px;
+}
+.modal-newsletter .close:hover {
+    opacity: 0.8;
+}
+.modal-newsletter .icon-box {
+    color: #7265ea;
+    display: inline-block;
+    z-index: 9;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.modal-newsletter .icon-box i {
+    font-size: 110px;
+}
+.modal-newsletter .form-control, .modal-newsletter .btn {
+    min-height: 46px;
+    border-radius: 0;
+}
+.modal-newsletter .form-control {
+    box-shadow: none;
+    border-color: #dbdbdb;
+}
+.modal-newsletter .form-control:focus {
+    border-color: #34d2eb;
+    box-shadow: 0 0 8px rgba(249, 88, 88, 0.4);
+}
+.modal-newsletter .btn {
+    color: #fff;
+    background: #34d2eb;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    padding: 6px 20px;
+    min-width: 150px;
+    margin-left: 6px !important;
+    border: none;
+}
+.modal-newsletter .btn:hover, .modal-newsletter .btn:focus {
+    box-shadow: 0 0 8px rgba(249, 88, 88, 0.4);
+    background: #34d2eb;
+    outline: none;
+}
+.modal-newsletter .input-group {
+    margin-top: 30px;
+}
+
+/* Listing */
+.listing h4{
+    padding-top: 50px;
+}
+/* Footer */
+footer{
+    font-family: 'Courier New', monospace;
+}
+footer ul li{
+    padding: 2px 20px;
+}
