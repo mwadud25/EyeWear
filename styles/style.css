@@ -1,3 +1,4 @@
+/*DEVELOPER: Muhammed Wadud, IS117-004, Spring, 2023 */
 @media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
 
 * {
@@ -43,11 +44,16 @@ body{
 #header .navbar-toggle-icon:focus{
     box-shadow:none;
 }
-.featured .card{
+#aboutus .img-fluid{
+    box-shadow: 0px 25px 20px -20px rgba(0,0,0,1);
+}
+.card{
     box-shadow: 0px 25px 20px -20px rgba(0,0,0,1);
 }
 
-
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #34d2eb !important;
+}
 /* News Letter */
 .modal-newsletter {
     color: #999;
@@ -125,9 +131,46 @@ body{
     margin-top: 30px;
 }
 
+/* About Us */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
 /* Listing */
 .listing h4{
     padding-top: 50px;
+}
+.listing{
+    background-color: #eee;
+}
+/* Contact Us */
+.contactus{
+    background-color: #eee;
+}
+/* Cart */
+.cart{
+    background-color: #eee;
+}
+
+/* Checkout */
+.checkout{
+    background-color: #eee;
 }
 /* Footer */
 footer{
